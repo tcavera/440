@@ -1,0 +1,10 @@
+10 pts
+
+Essays discuss the assigned topic correctly, but the organization is a bit
+awckward. 
+
+The DFA looks good.
+Instead of using 'ASCII', you could use the variable $\Sigma$ to refer to the
+whole alphabet, which in this case is indeed almost the whole ASCII table.
+
+- Dr. Rivas

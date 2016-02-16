@@ -1,0 +1,12 @@
+State,Description
+q0,Starting state. Moving the goat is the only option that would lead to a possible solution from here. Any other move would lead to the error state q9. 
+q1,"State that points to states q0, q9, and q2. q1 must be reached in all possible solutions."
+q2,"State that points to states q1, q9, q7, and q3. q2 must be reached in all possible solutions."
+q3,"State that points to states q2, q9, and q4. Can be neglected in a solution."
+q4,"State that points to states q3, q9, and q5. Can be neglected in a possible solution. "
+q5,"State that points to states q4, q8, q9, and q6. q5 must be reached in all possible solutions."
+q6,"State that points to states q5, q9, and the accepted state q10. q6 must be reached in all possilbe solutions."
+q7,"State that points to states q2, q9, and q8. Can be neglectedf in a solution."
+q8,"State that points to states q7, q9, and q5. Can be neglected in a possible solution."
+q9,"The error state. All other states, including this state itself, can transiton to this state if invalid moves are made. "
+q10,"The accepted state. Only reached via state q6, and can transition to the error state if any extra invalid moves are made. "

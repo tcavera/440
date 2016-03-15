@@ -1,0 +1,4 @@
+print ( " professor rivas is cool " )
+var x
+x = 42
+*- im running out of ideas -*

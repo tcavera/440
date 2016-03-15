@@ -1,0 +1,3 @@
+*- this program will not work because im not closing the comment
+var t
+t = 12 

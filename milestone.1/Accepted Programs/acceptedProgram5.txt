@@ -1,0 +1,6 @@
+*- this is the last accepted program -* 
+var q 
+q = 100 + 100 + 4
+print ( q + q + q )
+print ( " wow big number " )
+*- have a nice day -*
